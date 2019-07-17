@@ -1,0 +1,33 @@
+{
+  "name": "p4ssw0rd",
+  "version": "1.0.0",
+  "description": "Hash passwords with SHA-256 + bcrypt",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "(mocha -r ts-node/register test/*.ts; mocha dist/test/*.js)",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:Munkkeli/p4ssw0rd"
+  },
+  "author": "Tuomas Pöyry <tuomas@munkkeli.io> (https://tuomas.poyry.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Munkkeli/p4ssw0rd/issues"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "~2.4.2",
+    "bcryptjs": "~2.4.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.4",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
