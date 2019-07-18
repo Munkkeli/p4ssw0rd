@@ -1,4 +1,6 @@
-# P4ssw0rd
+# p4ssw0rd
+
+[![Build Status](https://travis-ci.com/Munkkeli/p4ssw0rd.svg?branch=master)](https://travis-ci.com/Munkkeli/p4ssw0rd)
 
 Generates secure password hashes with SHA-256 and bcrypt. Supports TypeScript.
 
