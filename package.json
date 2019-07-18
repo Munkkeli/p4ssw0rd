@@ -1,6 +1,6 @@
 {
   "name": "p4ssw0rd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hash passwords with SHA-256 + bcrypt",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
