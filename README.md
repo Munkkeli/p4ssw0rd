@@ -62,3 +62,5 @@ Simulates validating a real hash. Usefull against timing attacks on login pages.
 3. Make changes
 4. `npm run build`
 5. `npm test`
+
+That's it!
