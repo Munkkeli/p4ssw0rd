@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2019 Tuomas Pöyry <tuomas@munkkeli.io>
+Copyright (c) 2019 Tuomas Pöyry <me@tuomas.id>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
