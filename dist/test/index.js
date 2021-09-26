@@ -128,7 +128,7 @@ describe('Security', function () {
     });
     it('should not create obvious collisions', function () {
         var list = [];
-        for (var i = 0; i < 32; i++) {
+        for (var i = 0; i < 64; i++) {
             var password = null;
             do {
                 password = crypto_1.randomBytes(16).toString('hex');
@@ -143,5 +143,5 @@ describe('Security', function () {
                 chai_1.expect(valid).to.equal(password === compare);
             }
         }
-    });
+    }).timeout(10000);
 });
