@@ -148,7 +148,7 @@ describe('Security', () => {
   it('should not create obvious collisions', () => {
     const list: string[] = [];
 
-    for (let i = 0; i < 32; i++) {
+    for (let i = 0; i < 64; i++) {
       let password = null;
       do {
         password = randomBytes(16).toString('hex');
@@ -165,5 +165,5 @@ describe('Security', () => {
         expect(valid).to.equal(password === compare);
       }
     }
-  });
+  }).timeout(10000);
 });
